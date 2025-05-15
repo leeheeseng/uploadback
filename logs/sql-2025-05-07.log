@@ -1,0 +1,4309 @@
+2025-05-07 12:05:47 - HV000001: Hibernate Validator 8.0.1.Final
+2025-05-07 12:05:47 - Starting CloneApplication using Java 17.0.10 with PID 13572 (D:\Study Summary\clonecode\back\clone\bin\main started by bule9 in D:\Study Summary\clonecode\back)
+2025-05-07 12:05:47 - No active profile set, falling back to 1 default profile: "default"
+2025-05-07 12:05:47 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-07 12:05:47 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-07 12:05:48 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-07 12:05:48 - Finished Spring Data repository scanning in 69 ms. Found 10 JPA repository interfaces.
+2025-05-07 12:05:48 - No MyBatis mapper was found in '[com.clonecod.clone]' package. Please check your configuration.
+2025-05-07 12:05:49 - Tomcat initialized with port(s): 8080 (http)
+2025-05-07 12:05:49 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-07 12:05:49 - Starting service [Tomcat]
+2025-05-07 12:05:49 - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-05-07 12:05:49 - Initializing Spring embedded WebApplicationContext
+2025-05-07 12:05:49 - Root WebApplicationContext: initialization completed in 1558 ms
+2025-05-07 12:05:49 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-07 12:05:49 - HHH000412: Hibernate ORM core version 6.2.13.Final
+2025-05-07 12:05:49 - HHH000406: Using bytecode reflection optimizer
+2025-05-07 12:05:49 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-07 12:05:49 - HikariPool-1 - Starting...
+2025-05-07 12:05:50 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45f757f4
+2025-05-07 12:05:50 - HikariPool-1 - Start completed.
+2025-05-07 12:05:50 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-07 12:05:50 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-05-07 12:05:51 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-07 12:05:51 - 
+    alter table bookdetail 
+       modify column rating DECIMAL(3,2)
+2025-05-07 12:05:51 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 12:05:51 - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.clonecod.clone.repository.BookDetailRepository
+2025-05-07 12:05:51 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-07 12:05:51 - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.clonecod.clone.repository.ReviewRepository
+2025-05-07 12:05:51 - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.clonecod.clone.repository.EventRepository
+2025-05-07 12:05:51 - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.clonecod.clone.repository.EventDetailRepository
+2025-05-07 12:05:51 - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.clonecod.clone.repository.MemberRepository
+2025-05-07 12:05:52 - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.clonecod.clone.repository.PurchaseRepository
+2025-05-07 12:05:52 - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.clonecod.clone.repository.ShoppingCartRepository
+2025-05-07 12:05:52 - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.clonecod.clone.repository.SubCategoryRepository
+2025-05-07 12:05:52 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-07 12:05:52 - 
+
+Using generated security password: 45ed000f-a834-4eea-85cf-a874ddece00f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-05-07 12:05:52 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6725e1cd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@119772b7, org.springframework.security.web.context.SecurityContextHolderFilter@6ea1fcca, org.springframework.security.web.header.HeaderWriterFilter@10b32037, org.springframework.web.filter.CorsFilter@124b32b3, org.springframework.security.web.authentication.logout.LogoutFilter@557e7013, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20fe53df, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59a72348, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5bd8511d, org.springframework.security.web.access.ExceptionTranslationFilter@85560ba, org.springframework.security.web.access.intercept.AuthorizationFilter@21dae3d5]
+2025-05-07 12:05:52 - LiveReload server is running on port 35729
+2025-05-07 12:05:52 - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-07 12:05:53 - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-07 12:05:53 - Started CloneApplication in 5.578 seconds (process running for 6.065)
+2025-05-07 12:06:18 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-07 12:06:18 - Initializing Servlet 'dispatcherServlet'
+2025-05-07 12:06:18 - Completed initialization in 1 ms
+2025-05-07 12:06:19 - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.clonecod.clone.controller.BookController
+2025-05-07 12:06:19 - 카테고리별 도서 조회 - 상위: 1, 하위: null, 페이지: 0, 크기: 20, 정렬: bookId,asc, 기간: rating
+2025-05-07 12:06:19 - 상위 카테고리 조회 - topCategoryId: 1
+2025-05-07 12:06:19 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.top_category_id=? 
+    order by
+        b1_0.rating desc 
+    limit
+        ?,?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_id,
+        e1_0.big_cover,
+        e1_0.book_id,
+        e1_0.cover,
+        e1_0.discount_rate,
+        e1_0.end_date,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        event e1_0 
+    where
+        e1_0.start_date<=? 
+        and e1_0.end_date>=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        count(b1_0.book_id) 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.top_category_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 카테고리별 도서 조회 - 상위: 1, 하위: null, 페이지: 0, 크기: 20, 정렬: bookId,asc, 기간: rating
+2025-05-07 12:06:19 - 상위 카테고리 조회 - topCategoryId: 1
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.top_category_id=? 
+    order by
+        b1_0.rating desc 
+    limit
+        ?,?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        count(b1_0.book_id) 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.top_category_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_id,
+        e1_0.big_cover,
+        e1_0.book_id,
+        e1_0.cover,
+        e1_0.discount_rate,
+        e1_0.end_date,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        event e1_0 
+    where
+        e1_0.start_date<=? 
+        and e1_0.end_date>=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:06:19 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 카테고리별 도서 조회 - 상위: 1, 하위: null, 페이지: 0, 크기: 20, 정렬: bookId,asc, 기간: rating
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_id,
+        e1_0.big_cover,
+        e1_0.book_id,
+        e1_0.cover,
+        e1_0.discount_rate,
+        e1_0.end_date,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        event e1_0 
+    where
+        e1_0.start_date<=? 
+        and e1_0.end_date>=?
+2025-05-07 12:07:23 - 상위 카테고리 조회 - topCategoryId: 1
+2025-05-07 12:07:23 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.top_category_id=? 
+    order by
+        b1_0.rating desc 
+    limit
+        ?,?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        count(b1_0.book_id) 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.top_category_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 카테고리별 도서 조회 - 상위: 1, 하위: null, 페이지: 0, 크기: 20, 정렬: bookId,asc, 기간: rating
+2025-05-07 12:07:23 - 상위 카테고리 조회 - topCategoryId: 1
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.top_category_id=? 
+    order by
+        b1_0.rating desc 
+    limit
+        ?,?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        count(b1_0.book_id) 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.top_category_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_id,
+        e1_0.big_cover,
+        e1_0.book_id,
+        e1_0.cover,
+        e1_0.discount_rate,
+        e1_0.end_date,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        event e1_0 
+    where
+        e1_0.start_date<=? 
+        and e1_0.end_date>=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:23 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:30 - 
+    select
+        m1_0.member_id,
+        m1_0.birthday,
+        m1_0.email,
+        m1_0.gender,
+        m1_0.login_id,
+        m1_0.member_name,
+        m1_0.password,
+        m1_0.tel 
+    from
+        member m1_0 
+    where
+        m1_0.login_id=?
+2025-05-07 12:07:32 - 카테고리별 도서 조회 - 상위: 1, 하위: null, 페이지: 0, 크기: 20, 정렬: bookId,asc, 기간: rating
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_id,
+        e1_0.big_cover,
+        e1_0.book_id,
+        e1_0.cover,
+        e1_0.discount_rate,
+        e1_0.end_date,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        event e1_0 
+    where
+        e1_0.start_date<=? 
+        and e1_0.end_date>=?
+2025-05-07 12:07:32 - 상위 카테고리 조회 - topCategoryId: 1
+2025-05-07 12:07:32 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.top_category_id=? 
+    order by
+        b1_0.rating desc 
+    limit
+        ?,?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        count(b1_0.book_id) 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.top_category_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 카테고리별 도서 조회 - 상위: 1, 하위: null, 페이지: 0, 크기: 20, 정렬: bookId,asc, 기간: rating
+2025-05-07 12:07:32 - 상위 카테고리 조회 - topCategoryId: 1
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.top_category_id=? 
+    order by
+        b1_0.rating desc 
+    limit
+        ?,?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        count(b1_0.book_id) 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.top_category_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_id,
+        e1_0.big_cover,
+        e1_0.book_id,
+        e1_0.cover,
+        e1_0.discount_rate,
+        e1_0.end_date,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        event e1_0 
+    where
+        e1_0.start_date<=? 
+        and e1_0.end_date>=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:32 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:07:33 - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.clonecod.clone.controller.ShoppingCartController
+2025-05-07 12:07:33 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:07:33 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?)
+2025-05-07 12:07:33 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:07:33 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?)
+2025-05-07 12:09:09 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:09:09 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?)
+2025-05-07 12:09:23 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:09:23 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?)
+2025-05-07 12:09:35 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:09:35 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?)
+2025-05-07 12:09:47 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:09:47 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?)
+2025-05-07 12:10:04 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:10:04 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?)
+2025-05-07 12:10:13 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:10:13 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?)
+2025-05-07 12:10:15 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:10:15 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?)
+2025-05-07 12:10:25 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:10:25 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?)
+2025-05-07 12:10:27 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:10:27 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?)
+2025-05-07 12:10:43 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:10:43 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?)
+2025-05-07 12:10:44 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:10:44 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?)
+2025-05-07 12:10:45 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:10:45 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?)
+2025-05-07 12:10:52 - 카테고리별 도서 조회 - 상위: null, 하위: null, 페이지: 0, 크기: 20, 정렬: bookId,asc, 기간: new
+2025-05-07 12:10:52 - 전체 도서 리스트 조회
+2025-05-07 12:10:52 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    order by
+        b1_0.publication_date desc 
+    limit
+        ?,?
+2025-05-07 12:10:52 - 
+    select
+        count(b1_0.book_id) 
+    from
+        bookdetail b1_0
+2025-05-07 12:10:52 - 카테고리별 도서 조회 - 상위: null, 하위: null, 페이지: 0, 크기: 20, 정렬: bookId,asc, 기간: new
+2025-05-07 12:10:52 - 전체 도서 리스트 조회
+2025-05-07 12:10:52 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    order by
+        b1_0.publication_date desc 
+    limit
+        ?,?
+2025-05-07 12:10:52 - 
+    select
+        count(b1_0.book_id) 
+    from
+        bookdetail b1_0
+2025-05-07 12:10:55 - 장바구니 아이템 여러 개 추가 요청 - 회원ID: 1, 상품수: 20
+2025-05-07 12:10:55 - 여러 아이템을 장바구니에 추가 요청 - 아이템 수: 20
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 
+    insert 
+    into
+        shopping_cart
+        (added_date,book_id,member_id,quantity) 
+    values
+        (?,?,?,?)
+2025-05-07 12:10:55 - 여러 아이템이 장바구니에 추가 완료 - 아이템 수: 20
+2025-05-07 12:10:55 - 20개의 상품이 장바구니에 추가되었습니다.
+2025-05-07 12:10:57 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:10:57 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2025-05-07 12:10:57 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:10:57 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2025-05-07 12:13:58 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:13:58 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2025-05-07 12:13:58 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:13:58 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2025-05-07 12:14:11 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:14:11 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2025-05-07 12:14:11 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:14:11 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2025-05-07 12:14:28 - 카테고리별 도서 조회 - 상위: null, 하위: null, 페이지: 0, 크기: 20, 정렬: bookId,asc, 기간: new
+2025-05-07 12:14:28 - 전체 도서 리스트 조회
+2025-05-07 12:14:28 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    order by
+        b1_0.publication_date desc 
+    limit
+        ?,?
+2025-05-07 12:14:28 - 
+    select
+        count(b1_0.book_id) 
+    from
+        bookdetail b1_0
+2025-05-07 12:14:28 - 카테고리별 도서 조회 - 상위: null, 하위: null, 페이지: 0, 크기: 20, 정렬: bookId,asc, 기간: new
+2025-05-07 12:14:28 - 전체 도서 리스트 조회
+2025-05-07 12:14:28 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    order by
+        b1_0.publication_date desc 
+    limit
+        ?,?
+2025-05-07 12:14:28 - 
+    select
+        count(b1_0.book_id) 
+    from
+        bookdetail b1_0
+2025-05-07 12:14:29 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:14:29 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2025-05-07 12:14:29 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:14:29 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.book_id in (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    insert 
+    into
+        purchase
+        (book_id,cart_id,delivery_date,member_id,purchase_date,quantity) 
+    values
+        (?,?,?,?,?,?)
+2025-05-07 12:15:13 - 장바구니 아이템 여러 개 삭제 요청 - 삭제할 아이템 수: 22
+2025-05-07 12:15:13 - 삭제할 아이템 ID 목록: [223, 286, 284, 281, 274, 282, 275, 280, 271, 287, 285, 276, 283, 224, 272, 269, 273, 268, 279, 278, 277, 270]
+2025-05-07 12:15:13 - 장바구니 아이템 여러 개 삭제 요청 - 아이템 수: 22
+2025-05-07 12:15:13 - 삭제할 아이템 ID 목록: [223, 286, 284, 281, 274, 282, 275, 280, 271, 287, 285, 276, 283, 224, 272, 269, 273, 268, 279, 278, 277, 270]
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 삭제할 아이템 존재 - 아이템 수: 22
+2025-05-07 12:15:13 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id in (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    delete 
+    from
+        shopping_cart 
+    where
+        shopping_cart_id=?
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 223 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 286 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 284 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 281 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 274 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 282 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 275 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 280 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 271 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 287 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 285 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 276 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 283 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 224 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 272 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 269 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 273 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 268 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 279 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 278 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 277 삭제 완료
+2025-05-07 12:15:13 - 
+    select
+        count(*) 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.shopping_cart_id=?
+2025-05-07 12:15:13 - 아이템 270 삭제 완료
+2025-05-07 12:15:13 - 장바구니 아이템 여러 개 삭제 완료 - 삭제된 아이템 수: 22
+2025-05-07 12:15:13 - 
+    select
+        s1_0.shopping_cart_id,
+        s1_0.added_date,
+        s1_0.book_id,
+        s1_0.member_id,
+        s1_0.quantity 
+    from
+        shopping_cart s1_0 
+    where
+        s1_0.member_id=?
+2025-05-07 12:15:13 - 회원 ID 1의 장바구니에 상품이 없습니다.
+2025-05-07 12:15:17 - 카테고리별 도서 조회 - 상위: 1, 하위: null, 페이지: 0, 크기: 20, 정렬: bookId,asc, 기간: rating
+2025-05-07 12:15:17 - 상위 카테고리 조회 - topCategoryId: 1
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_id,
+        e1_0.big_cover,
+        e1_0.book_id,
+        e1_0.cover,
+        e1_0.discount_rate,
+        e1_0.end_date,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        event e1_0 
+    where
+        e1_0.start_date<=? 
+        and e1_0.end_date>=?
+2025-05-07 12:15:17 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.top_category_id=? 
+    order by
+        b1_0.rating desc 
+    limit
+        ?,?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        count(b1_0.book_id) 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.top_category_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 카테고리별 도서 조회 - 상위: 1, 하위: null, 페이지: 0, 크기: 20, 정렬: bookId,asc, 기간: rating
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 상위 카테고리 조회 - topCategoryId: 1
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        b1_0.book_id,
+        b1_0.writers_comment,
+        b1_0.book_index,
+        b1_0.cover,
+        b1_0.discount_rate,
+        b1_0.price,
+        b1_0.publication_date,
+        b1_0.publisher,
+        b1_0.rating,
+        b1_0.subcategory_id,
+        b1_0.title,
+        b1_0.top_category_id,
+        b1_0.writer 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.top_category_id=? 
+    order by
+        b1_0.rating desc 
+    limit
+        ?,?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        count(b1_0.book_id) 
+    from
+        bookdetail b1_0 
+    where
+        b1_0.top_category_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_id,
+        e1_0.big_cover,
+        e1_0.book_id,
+        e1_0.cover,
+        e1_0.discount_rate,
+        e1_0.end_date,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        event e1_0 
+    where
+        e1_0.start_date<=? 
+        and e1_0.end_date>=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
+2025-05-07 12:15:17 - 
+    select
+        e1_0.event_detail_id,
+        e1_0.event_id,
+        e1_0.event_detail 
+    from
+        eventdetail e1_0 
+    where
+        e1_0.event_detail_id=?
