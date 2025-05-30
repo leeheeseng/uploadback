@@ -19,7 +19,7 @@ repositories {
 }
 
 dependencies {
-   
+     implementation 'mysql:mysql-connector-java:8.0.33'
     // Spring Boot Starter JPA: JPA와 Hibernate를 쉽게 사용할 수 있도록 해주는 기본 라이브러리
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-security'
@@ -149,3 +149,48 @@ tasks.named('test') {
 tasks.withType(JavaCompile) {
     options.compilerArgs << "-parameters"
 }
+
+// def frontendDir = file("src/main/frontend/front")
+
+// sourceSets {
+//     main {
+//         resources {
+//             srcDirs = ["clone/src/main/resources"]
+//         }
+//     }
+// }
+
+// processResources {
+//     dependsOn "copyReactBuildFiles"
+// }
+
+// task installReact(type: Exec) {
+//     workingDir frontendDir
+//     inputs.dir frontendDir
+//     group = BasePlugin.BUILD_GROUP
+
+//     if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
+//         commandLine 'cmd', '/c', 'npm.cmd install'
+//     } else {
+//         commandLine 'sh', '-c', ' npm install'
+//     }
+// }
+
+// task buildReact(type: Exec) {
+//     dependsOn installReact
+//     workingDir frontendDir
+//     inputs.dir frontendDir
+//     group = BasePlugin.BUILD_GROUP
+
+//     if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
+//         commandLine 'npm.cmd', 'run-script', 'build'
+//     } else {
+//         commandLine 'npm', 'run-script', 'build'
+//     }
+// }
+
+// task copyReactBuildFiles(type: Copy) {
+//     dependsOn buildReact
+//     from file("${frontendDir}/build")
+//     into "clone/src/main/resources/static"
+// }

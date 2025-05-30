@@ -22,7 +22,7 @@ import com.clonecod.clone.service.MemberService;
 
 @RestController
 @RequestMapping("/api/member")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class MemberController {
 
     private final MemberService memberService;
